@@ -1,0 +1,180 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.tips-and-more-wrapper {
+    display: inline-flex;
+    max-width: 400px;
+    width: 100%;
+}
+
+.tips-and-more-wrapper .tips-inner {
+    padding: 35px;
+    background: #F8F8F8;
+    width: 100%;
+}
+
+.tips-and-more-wrapper .tips-inner .title-tips {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.tips-and-more-wrapper .tips-inner {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.tips-and-more-wrapper .give-tips {
+    display: flex;
+    border: 1px solid #000;
+}
+
+.tips-and-more-wrapper .give-tips .image-tips {
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.tips-and-more-wrapper .give-tips .image-tips>h4 {
+    display: flex;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-grow: 0;
+    width: 30px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips input[type="number"] {
+    appearance: none;
+    border: 1px solid;
+    height: 40%;
+    padding: 0;
+    text-align: center;
+    border-left: 0;
+    border-right: 0;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips input {
+    appearance: none;
+    outline: 0;
+    border: 0;
+    margin: 0;
+}
+
+.tips-and-more-wrapper .give-tips .button-tips {
+    flex-grow: 1;
+}
+
+.tips-and-more-wrapper .give-tips .button-tips .btn-tips {
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    height: 100%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.tips-and-more-wrapper .give-tips .button-tips .btn-tips:hover {
+    opacity: 0.6;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.tips-and-more-wrapper .tips-description {
+    margin-bottom: 20px;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips input[type="number"]::-webkit-outer-spin-button,
+.tips-and-more-wrapper .give-tips .input-tips input[type="number"]::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.tips-and-more-wrapper .give-tips .input-tips input[type="number"] {
+    -moz-appearance: textfield;
+    /* Firefox */
+    background-color: #ffffff;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips .plus-tip,
+.tips-and-more-wrapper .give-tips .input-tips .minus-tip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    background-color: #ececec;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips .plus-tip:hover,
+.tips-and-more-wrapper .give-tips .input-tips .minus-tip:hover {
+    opacity: 0.6;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.tips-and-more-wrapper img.wp-smiley,
+.tips-and-more-wrapper img.emoji {
+    margin: 0 !important;
+    vertical-align: 0 !important;
+    width: 42px!important;
+    height: 42px !important;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips .plus-tip.disabled,
+.tips-and-more-wrapper .give-tips .input-tips .minus-tip.disabled,
+.tips-and-more-wrapper .give-tips .button-tips .btn-tips[disabled=disabled] {
+    cursor: not-allowed;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips .plus-tip svg,
+.tips-and-more-wrapper .give-tips .input-tips .minus-tip svg {
+    width: 11px;
+    height: auto;
+    margin-left: -1px;
+}
+
+.hidden_nominal_tip {
+    display: none;
+}
+
+.tips-and-more-wrapper~.thanks-message-tips {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 30px;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000000;
+    box-shadow: 5px 5px 0px 1px #000;
+}

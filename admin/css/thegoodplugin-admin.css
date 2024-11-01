@@ -1,0 +1,479 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.tipmore-analytic {
+    position: absolute;
+    top: -240px;
+    left: 0;
+}
+
+.stats-table {
+    display: flex;
+    column-gap: 50px;
+}
+
+.box-stats {
+    z-index: 2;
+    position: relative;
+}
+
+.box-stats .box-wrapper {
+    display: flex;
+    width: 241px;
+    background: #F5F5F5;
+    border: 2px solid #000000;
+    height: 109px;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    box-shadow: 5px 5px 0px 0px #000;
+}
+
+.box-stats.total-customer .box-wrapper {
+    background: #FDFFEC;
+}
+
+.box-stats img {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+.box-stats .box-title {
+    margin-bottom: 5px;
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.box-stats .box-subtitle {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.box-img-icon .emoji-icon {
+    font-size: 26px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 100%;
+    margin-right: 15px;
+    width: 36px;
+    max-width: 36px;
+    height: 36px;
+    max-height: 36px;
+}
+
+.cf-container .cf-field.field-flex {
+    display: flex;
+    border: 0;
+    padding: 25px 15px;
+}
+
+.cf-container .cf-field.field-flex .cf-field__head {
+    flex: 1 1 25%;
+}
+
+.cf-container .cf-field.notiftextbox {
+    flex: 1 1 25%;
+}
+
+.cf-container .cf-field.field-flex .cf-field__help {
+    display: none;
+}
+
+.toplevel_page_crb_carbon_fields_container_thegoodplugin_opts .postbox,
+.toplevel_page_crb_carbon_fields_container_thegoodplugin_opts .cf-container__fields {
+    background-color: transparent;
+    border: 0;
+}
+
+.toplevel_page_crb_carbon_fields_container_thegoodplugin_opts .cf-container__fields {
+    position: relative;
+    padding: 0;
+    margin-top: 170px;
+}
+
+.toplevel_page_crb_carbon_fields_container_thegoodplugin_opts .carbon-theme-options h2 {
+    display: none;
+}
+
+.toplevel_page_crb_carbon_fields_container_thegoodplugin_opts .cf-container .cf-field {
+    border: 0;
+}
+
+.toplevel_page_crb_carbon_fields_container_thegoodplugin_opts #poststuff {
+    background-color: transparent;
+    padding: 10px;
+    margin: 50px 30px 40px;
+    position: relative;
+}
+
+.text4field .subtext {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    display: block;
+    color: #9E9E9E;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+.tip-box .subtext {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    display: block;
+    color: #9E9E9E;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+
+#post-body.columns-2 #postbox-container-1 {
+    margin-top: 190px;
+}
+
+.toplevel_page_crb_carbon_fields_container_thegoodplugin_opts #publishing-action {
+    width: 100%;
+}
+
+.toplevel_page_crb_carbon_fields_container_thegoodplugin_opts.wp-core-ui .carbon-theme-options .button-primary {
+    width: 100%;
+    padding: 15px;
+}
+
+
+/* preview box */
+
+.tips-and-more-wrapper {
+    display: inline-flex;
+    max-width: 400px;
+    width: 100%;
+}
+
+.tips-and-more-wrapper .tips-inner {
+    padding: 20px;
+    background: #F8F8F8;
+    width: 100%;
+    margin-bottom: 0;
+    box-sizing: border-box;
+}
+
+.tips-and-more-wrapper .tips-inner .title-tips,
+.tips-and-more-wrapper .tips-inner .title-tips p {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.tips-and-more-wrapper .tips-inner .title-tips strong,
+.tips-and-more-wrapper .tips-inner .title-tips b {
+    font-weight: 700;
+}
+
+.tips-and-more-wrapper .tips-inner {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tips-and-more-wrapper .give-tips {
+    display: flex;
+    border: 1px solid #000;
+}
+
+.tips-and-more-wrapper .give-tips .image-tips {
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-grow: 0;
+    width: 30px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips input[type="number"] {
+    appearance: none;
+    border: 1px solid;
+    height: 40%;
+    padding: 0;
+    text-align: center;
+    border-left: 0;
+    border-right: 0;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips input {
+    appearance: none;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+}
+
+.tips-and-more-wrapper .give-tips .button-tips {
+    flex-grow: 1;
+}
+
+.tips-and-more-wrapper .give-tips .button-tips .btn-tips {
+    width: 100%;
+    background: #000000;
+    color: #fff;
+    border: 0;
+    height: 100%;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.tips-and-more-wrapper .give-tips .button-tips .btn-tips:hover {
+    opacity: 0.6;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.tips-and-more-wrapper .tips-description {
+    margin-bottom: 20px;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips input[type="number"]::-webkit-outer-spin-button,
+.tips-and-more-wrapper .give-tips .input-tips input[type="number"]::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0;
+    /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.tips-and-more-wrapper .give-tips .input-tips input[type="number"] {
+    -moz-appearance: textfield;
+    /* Firefox */
+    background-color: #ffffff;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips .plus-tip,
+.tips-and-more-wrapper .give-tips .input-tips .minus-tip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    background-color: #ececec;
+    cursor: pointer;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips .plus-tip:hover,
+.tips-and-more-wrapper .give-tips .input-tips .minus-tip:hover {
+    opacity: 0.6;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips .plus-tip.disabled,
+.tips-and-more-wrapper .give-tips .input-tips .minus-tip.disabled,
+.tips-and-more-wrapper .give-tips .button-tips .btn-tips[disabled=disabled] {
+    cursor: not-allowed;
+}
+
+.tips-and-more-wrapper .give-tips .input-tips .plus-tip svg,
+.tips-and-more-wrapper .give-tips .input-tips .minus-tip svg {
+    width: 9px;
+    height: auto;
+}
+
+.hidden_nominal_tip {
+    display: none;
+}
+
+.tips-and-more-wrapper~.thanks-message-tips {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 30px;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000000;
+    box-shadow: 5px 5px 0px 1px #000;
+}
+
+
+/* admin */
+
+.notiftextbox .cf-html__content {
+    font-style: italic;
+}
+
+.inputemoji input {
+    width: 25% !important;
+    width: 110px !important;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tips-description strong,
+.tips-description b {
+    font-weight: 700;
+}
+
+.cf-container-carbon_fields_container_thegoodplugin_opts .wp-media-buttons,
+.cf-container-carbon_fields_container_thegoodplugin_opts .wp-editor-tabs {
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+    .carbon-theme-options #poststuff #post-body.columns-2 {
+        display: flex;
+        margin: 0;
+    }
+    .carbon-theme-options #post-body-content,
+    .edit-form-section {
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    .carbon-theme-options #post-body.columns-2 #postbox-container-1 {
+        margin-right: 0;
+        width: 30%;
+        padding-left: 20px;
+    }
+    .carbon-network #post-body.columns-2 #postbox-container-1.fixed,
+    .carbon-theme-options #post-body.columns-2 #postbox-container-1.fixed {
+        position: unset!important;
+        margin-right: 0!important;
+        right: 0;
+    }
+    .carbon-theme-options #major-publishing-actions {
+        padding-top: 20px;
+        border-top: 0;
+    }
+}
+
+.carbon-theme-options .tips-and-more-wrapper {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    margin-bottom: 0;
+    max-width: unset;
+    background-color: #fff;
+}
+
+.carbon-theme-options .tips-and-more-wrapper .tips-inner .title-tips {
+    margin-top: 0;
+}
+
+.carbon-theme-options .tips-and-more-wrapper .tips-inner .image-tips h4 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+}
+
+.wp-core-ui .carbon-theme-options .button-primary {
+    background: #18D363;
+    border-color: #18D363;
+}
+
+.carbon-theme-options #major-publishing-actions {
+    background-color: #ffffff;
+}
+
+.stat-head {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.stat-head h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.tip-filter select {
+    border-radius: 30px;
+    padding: 3px 35px 3px 20px;
+    border: 0;
+    font-weight: bold;
+    text-align: center;
+    text-align-last: center;
+    position: relative;
+    background-image: url(../assets/arrowdown.svg);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 85% center;
+    background-clip: border-box;
+    -moz-background-clip: border-box;
+    -webkit-background-clip: border-box;
+}
+
+.cf-container-carbon_fields_container_thegoodplugin_opts .form-title,
+.metabox-holder .postbox>h3,
+.metabox-holder .stuffbox>h3,
+.metabox-holder h2.hndle,
+.metabox-holder h3.hndle {
+    margin-left: 15px;
+    font-size: 26px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#poststuff #post-body {
+    position: relative;
+    padding: 40px;
+}
+
+#poststuff #post-body:before {
+    content: '';
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    height: 1020px;
+    top: 220px;
+    left: 0;
+    border-radius: 25px;
+}
+
+.metabox-holder .postbox>h3,
+.metabox-holder .stuffbox>h3,
+.metabox-holder h2.hndle,
+.metabox-holder h3.hndle {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    #poststuff #post-body:before {
+        height: 1080px;
+    }
+}
+
+#toplevel_page_crb_carbon_fields_container_thegoodplugin_opts .wp-menu-image img {
+    width: 36px;
+    height: 21px;
+    padding-top: 7px;
+}
